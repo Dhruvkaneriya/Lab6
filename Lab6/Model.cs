@@ -12,7 +12,7 @@ using System.Collections.Generic;
 using Lab6.ModelComponents;
 using Lab6.Materials;
 
-namespace Psim
+namespace Lab6
 {
 	// Model is comprised of a single material. Hardcoding the time step & number of phonons for now.
 	class Model
@@ -37,7 +37,15 @@ namespace Psim
 		}
 
 		// TODO: Write a method to add a sensor to the model
+		public void AddSensor()
+		{ 
+		
+		}
 		// TODO: Write a method to add a cell to the model
+		public void AddCell()
+		{ 
+		
+		}
 
 		/// <summary>
 		/// Automatically sets all the surfaces in the cells that constitute this model.
