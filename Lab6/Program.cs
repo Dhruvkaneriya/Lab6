@@ -1,4 +1,4 @@
-﻿using System;,
+﻿using System;
 
 using Lab6.Particles;
 using Lab6.ModelComponents;

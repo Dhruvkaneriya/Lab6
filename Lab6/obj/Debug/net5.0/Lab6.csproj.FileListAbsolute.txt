@@ -3,3 +3,14 @@ C:\Users\DhruvDK\Documents\Cambrian\IOT1026\Repositories\Lab6\Lab6\obj\Debug\net
 C:\Users\DhruvDK\Documents\Cambrian\IOT1026\Repositories\Lab6\Lab6\obj\Debug\net5.0\Lab6.AssemblyInfoInputs.cache
 C:\Users\DhruvDK\Documents\Cambrian\IOT1026\Repositories\Lab6\Lab6\obj\Debug\net5.0\Lab6.AssemblyInfo.cs
 C:\Users\DhruvDK\Documents\Cambrian\IOT1026\Repositories\Lab6\Lab6\obj\Debug\net5.0\Lab6.csproj.CoreCompileInputs.cache
+C:\Users\DhruvDK\Documents\Cambrian\IOT1026\Repositories\Lab6\Lab6\bin\Debug\net5.0\Lab6.exe
+C:\Users\DhruvDK\Documents\Cambrian\IOT1026\Repositories\Lab6\Lab6\bin\Debug\net5.0\Lab6.deps.json
+C:\Users\DhruvDK\Documents\Cambrian\IOT1026\Repositories\Lab6\Lab6\bin\Debug\net5.0\Lab6.runtimeconfig.json
+C:\Users\DhruvDK\Documents\Cambrian\IOT1026\Repositories\Lab6\Lab6\bin\Debug\net5.0\Lab6.runtimeconfig.dev.json
+C:\Users\DhruvDK\Documents\Cambrian\IOT1026\Repositories\Lab6\Lab6\bin\Debug\net5.0\Lab6.dll
+C:\Users\DhruvDK\Documents\Cambrian\IOT1026\Repositories\Lab6\Lab6\bin\Debug\net5.0\ref\Lab6.dll
+C:\Users\DhruvDK\Documents\Cambrian\IOT1026\Repositories\Lab6\Lab6\bin\Debug\net5.0\Lab6.pdb
+C:\Users\DhruvDK\Documents\Cambrian\IOT1026\Repositories\Lab6\Lab6\obj\Debug\net5.0\Lab6.dll
+C:\Users\DhruvDK\Documents\Cambrian\IOT1026\Repositories\Lab6\Lab6\obj\Debug\net5.0\ref\Lab6.dll
+C:\Users\DhruvDK\Documents\Cambrian\IOT1026\Repositories\Lab6\Lab6\obj\Debug\net5.0\Lab6.pdb
+C:\Users\DhruvDK\Documents\Cambrian\IOT1026\Repositories\Lab6\Lab6\obj\Debug\net5.0\Lab6.genruntimeconfig.cache
