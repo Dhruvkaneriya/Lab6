@@ -1,10 +1,10 @@
-﻿using System;
+﻿using System;,
 
 using Lab6.Particles;
 using Lab6.ModelComponents;
 using Lab6.Materials;
 
-namespace Psim
+namespace Lab6
 {
 	class Program
 	{
@@ -26,6 +26,16 @@ namespace Psim
 			Material silicon = new Material(in dData, in rData);
 
 			// Test the AddSensor, AddCell and SetSurfaces implementations. 
+			Model model = new Model(silicon, 3100, 90, 10);
+			int numCells = 10;
+			for (int i = 0; i < numCells; ++i)
+			{
+				model.AddSensor(i, 310);
+				model.AddCell(10, 10, i);
+			}
+
+			model.SetSurfaces(300); // make this method private after testing 
+			model.SetEmitPhonons(300, 1, 5e-9); // this one too
 		}
 	}
 }

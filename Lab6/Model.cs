@@ -37,14 +37,33 @@ namespace Lab6
 		}
 
 		// TODO: Write a method to add a sensor to the model
-		public void AddSensor()
-		{ 
-		
+		public void AddSensor(int sensorID, double initTemp)
+		{
+				// we can not have duplicate sensor id so if sensor with sensor id already exits
+				// in the model (sensor list) throw invalid exception
+				// otherwise, add sensor to the model
+				if (sensorID == 0)
+				{
+					throw new NotImplementedException();
+				}
+				else
+				{
+					sensors.Add(new Sensor(sensorID, material, initTemp));
+				}
 		}
+
+		public void AddSensor(double inintTemp)
+		{
+			// use auto incrementing sensor id
+				
+		}
+
 		// TODO: Write a method to add a cell to the model
-		public void AddCell()
+		public void AddCell(double length, double width, double sensorID)
 		{ 
-		
+			// look throw the sensor list, find the sensor with Id sensor ID
+			// create a cell that link to sensor 
+			// what to do if no sensor with sensorID exits?
 		}
 
 		/// <summary>
