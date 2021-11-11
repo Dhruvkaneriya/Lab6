@@ -35,8 +35,9 @@ namespace Lab6.ModelComponents
 		private ISurface[] surfaces = new ISurface[NUM_SURFACES];
 		public List<Phonon> Phonons { get { return phonons; } }
 		private Sensor sensor;
+        private double sensorID;
 
-		public Cell(double length, double width, Sensor sensor) : base(length, width)
+        public Cell(double length, double width, Sensor sensor) : base(length, width)
 		{
 			this.sensor = sensor;
 			this.sensor.AddToArea(this.Area); // Each time a cell is linked to a sensor, the area that the sensor covers must increase
@@ -46,7 +47,12 @@ namespace Lab6.ModelComponents
 			}
 		}
 
-		public void SetEmitSurface(SurfaceLocation location, double temp)
+        public Cell(double length, double width, double sensorID) : base(length, width)
+        {
+            this.sensorID = sensorID;
+        }
+
+        public void SetEmitSurface(SurfaceLocation location, double temp)
 		{
 			// Thanks Josh
 			surfaces[(int)location] = new EmitSurface(location, this, temp);

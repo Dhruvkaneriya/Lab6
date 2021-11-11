@@ -22,7 +22,9 @@ namespace Lab6
 		private Material material;
 		private List<Cell> cells = new() { };
 		private List<Sensor> sensors = new() { };
-		private readonly double highTemp;
+        private object sensor;
+        private object sensorsID;
+        private readonly double highTemp;
 		private readonly double lowTemp;
 		private readonly double simTime;
 		private readonly double tEq;
@@ -39,10 +41,11 @@ namespace Lab6
 		// TODO: Write a method to add a sensor to the model
 		public void AddSensor(int sensorID, double initTemp)
 		{
-				// we can not have duplicate sensor id so if sensor with sensor id already exits
-				// in the model (sensor list) throw invalid exception
-				// otherwise, add sensor to the model
-				if (sensorID == 0)
+			// we can not have duplicate sensor id so if sensor with sensor id already exits
+			// in the model (sensor list) throw invalid exception
+			// otherwise, add sensor to the model
+				List<Sensor> sensor = new List<Sensor>();
+				if (sensor == sensorsID)
 				{
 					throw new NotImplementedException();
 				}
@@ -55,15 +58,26 @@ namespace Lab6
 		public void AddSensor(double inintTemp)
 		{
 			// use auto incrementing sensor id
-				
+			int sensorID = 0;
+			sensorID += 1;
 		}
 
 		// TODO: Write a method to add a cell to the model
 		public void AddCell(double length, double width, double sensorID)
-		{ 
+		{
 			// look throw the sensor list, find the sensor with Id sensor ID
 			// create a cell that link to sensor 
 			// what to do if no sensor with sensorID exits?
+			List<Sensor> sensor = new List<Sensor>();
+			if (sensor == sensorsID)
+			{
+				throw new NotImplementedException();
+
+			}
+			else
+			{
+				cells.Add(new Cell(length, width, sensorID));
+			}
 		}
 
 		/// <summary>
@@ -92,6 +106,7 @@ namespace Lab6
 		private void SetEmitPhonons(double tEq, double effEnergy, double timeStep)
 		{
 			// TODO: Implement -> just need to call the appropriate method in each cell
+			
 			throw new NotImplementedException();
 		}
 
